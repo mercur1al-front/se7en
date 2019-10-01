@@ -1,0 +1,897 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1260px;
+    margin: 0px auto;
+    padding: 0%;
+}
+.header {
+    width: 100%;
+    float: left;
+    min-height: 80px;
+    background-color: rgb(45, 45, 45);
+}
+.logo {
+    width: 80px;
+    float: left;
+    padding-top: 18px;
+    padding-left: 40px;
+}
+.mainmenu ul {
+    padding-top: 12px;
+    float: left;
+    list-style: none;
+}
+.mainmenu ul li {
+    padding: 0px 25px;
+    float: left;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.286;
+    text-align: center;
+}
+.mainmenu ul .border {
+    border-left: 1px solid rgb(255, 255, 255);
+}
+.mainmenu ul li:hover {
+    cursor: pointer;
+    padding: 0px 25px;
+    float: left;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(110, 110, 110);
+    line-height: 1.286;
+    text-align: center;
+}
+.mainmenu ul li::after{
+    content: "\21D3";
+}
+.aboutsearch {
+    float: right;
+    padding-top: 6px;
+    padding-right: 40px;
+}
+.banner{
+    width: 100%;
+    float: left;
+    min-height: 35px;
+    background: gainsboro;
+}
+.news{
+    float: left;
+    height: 40px;
+}
+.runnertext{
+    padding-left: 40px;
+    float: left;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.5;
+    text-align: left;
+}
+.social{
+    float: right;
+    margin-right: 30px;
+    margin-top: 3px;
+}
+.social .searcher {
+    padding:10px 10px;
+    margin-right: 20px;
+    background: gainsboro;
+}
+.social .global {
+    padding:9px 10px;
+    margin-right: 20px;
+    background: gainsboro;
+}
+.social .facebook {
+    padding:10.5px 9px;
+    margin-right: 20px;
+    background: gainsboro;
+}
+.social .twitter {
+    padding:9px 13px;
+    margin-right: 10px;
+    background: gainsboro;
+}
+.social img:hover{
+    background: rgba(139, 139, 252, 0.5);
+}
+.slider{
+    width: auto;
+    float: left;
+    min-height: 350px;
+}
+.slider .box1{
+    float: left;
+    width: 252px;
+    background: url(!sevenmag_15.jpg);
+    min-height: 350px;
+}
+.slider .box111{
+    font-size: 12px;
+    margin:2px 10px;
+    color: white;
+}
+.slider .box1 .box11{
+    padding-top: 280px;
+}
+.slider .box11{
+    padding-top: 280px;
+    font-size: 18px;
+    margin:5px 10px;
+    color: white;
+}
+.slider .box2{
+    float: left;
+    width: 252px;
+    background: url(!sevenmag_15.jpg);
+    min-height: 350px;
+}
+.slider .box3{
+    float: left;
+    width: 252px;
+    background: url(!sevenmag_15.jpg);
+    min-height: 350px;
+}
+.slider .box3 .box11{
+    padding-top: 300px;
+}
+.slider .box4{
+    float: left;
+    width: 252px;
+    background: url(!sevenmag_15.jpg);
+    min-height: 350px;
+}
+.slider .box4 .box11{
+    padding-top: 280px;
+}
+.slider .box5{
+    float: left;
+    width: 252px;
+    background: url(!sevenmag_15.jpg);
+    min-height: 350px;
+    padding-bottom: 0px;
+}
+.righter {
+    float: right;
+}
+.polzunok {
+    width: 100%;
+    float: left;
+    min-height: 50px;
+}
+.polzunkee {
+    float: right;
+    margin-right: 40px;
+}
+.polzunokq {
+    width: 26px;
+    height: 6px;
+    float: right;
+    margin:0px 4px;
+    margin-top: 22px;
+    background:gainsboro;
+}
+.polzunokq:hover {
+    width: 26px;
+    height: 6px;
+    float: right;
+    margin:0px 4px;
+    margin-top: 22px;
+    background:gray;
+}
+.column1 {
+    float: left;
+    width: 580px;
+    min-height: 1895px;
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+.column1 .latestpost {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 30px;
+}
+.column1 .latestlogo {
+    float: left;
+    width: 100%;
+}
+.column1 .latestlogo h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.column1 .latestlogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.column1 .latestpost .latestbox1 {
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(!sevenmag_19.jpg);
+    font-size: 18px;
+    position: relative;
+}
+
+.column1 .latestpost .latestbox2 {
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(!sevenmag_19.jpg);
+    font-size: 18px;
+}
+.column1 .latestpost .latestbox3 {
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(!sevenmag_19.jpg);
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}.column1 .latestpost .latestbox4 {
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(!sevenmag_19.jpg);
+    margin-bottom: 20px;
+    font-size: 18px;
+    position: relative;
+}
+.awesome1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: url(11.png);
+    top: 0px;
+    right: 0px;
+}
+.awesome2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: url(22.png);
+    top: 0px;
+    right: 0px;
+}
+.column1 .latestpost .latestbox1 p {
+    float: left;
+    margin: 5px 10px;
+    margin-top: 180px;
+    color: white;
+}
+.column1 .latestpost .latestbox2 p {
+    float: left;
+    margin: 5px 10px;
+    margin-top: 160px;
+    color: white;
+}
+.column1 .latestpost .latestbox3 p {
+    float: left;
+    margin: 5px 10px;
+    margin-top: 180px;
+    color: white;
+}
+.column1 .latestpost .latestbox4 p {
+    float: left;
+    margin: 5px 10px;
+    margin-top: 180px;
+    color: white;
+}
+.column1 .latestpost .latestbox11 {
+    float: left;
+    font-size: 12px;
+    margin: 2px 10px;
+    color: white;
+}
+.column1 .latestpost .latestbox22 {
+    float: left;
+    font-size: 12px;
+    margin: 2px 10px;
+    color: white;
+}
+.column1 .latestpost .latestbox33 {
+    float: left;
+    font-size: 12px;
+    margin: 2px 10px;
+    color: white;
+}
+.column1 .latestpost .latestbox44 {
+    float: left;
+    font-size: 12px;
+    margin: 2px 10px;
+    color: white;
+}
+.column1 .latestpost .latestbox1 .righterpost {
+    float: right;
+    padding-right: 10px;
+}
+.column1 .latestpost .latestbox2 .righterpost {
+    float: right;
+    padding-right: 10px;
+}
+.column1 .latestpost .latestbox3 .righterpost {
+    float: right;
+    padding-right: 10px;
+}
+.column1 .latestpost .latestbox4 .righterpost {
+    float: right;
+    padding-right: 10px;
+}
+.column1 .newspicture {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 30px;
+}
+.column1 .picturelogo {
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+}
+.column1 .picturelogo h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.column1 .picturelogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.column1 .picturelogo img{
+    width: 77%;
+    height: 100%;
+}
+.column1 .newspicture .newsbox1 {
+    float: left;
+    width: 260px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(big.png);
+    margin-bottom: 20px;
+}
+.column1 .newspicture .newsbox22 {
+    float: left;
+    width: 74px;
+    height: 74px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    background: url(big.png);
+}
+.column1 .newspicture .newsbox2 {
+    float: left;
+    width: 74px;
+    height: 74px;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    background: url(big.png);
+}
+.column1 .carousel {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 30px;
+}
+.column1 .carousellogo {
+    float: left;
+    width: 100%;
+}
+.column1 .carousellogo h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.column1 .carousellogo img{
+    width: 65%;
+    height: 100%;
+    padding-left: 10px;
+    
+}
+.column1 .carousellogo .slidebottom1{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(168, 168, 168);
+    margin:0px 5px;
+    margin-left: 25px;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.column1 .carousellogo .slidebottom{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(168, 168, 168);
+    margin:0px 1px;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.column1 .carousellogo .slidebottom1:hover{
+    background-color: black;
+}
+.column1 .carousellogo .slidebottom:hover{
+    background-color: black;
+}
+.column1 .carousellogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.carouselbox {
+    float: left;
+    width: 165px;
+    height: 115px;
+    background-image: url(big.png);
+    margin: 0px;
+}
+.carouselbox:hover {
+    float: left;
+    width: 165px;
+    height: 115px;
+    background-image: url(blachmicro.png);
+    margin: 0px;
+}
+.carouselboxer1 {
+    float: left;
+    width: 165px;
+    height: 230px;
+    margin-left: 20px;
+}
+.carouselboxer1 h3 {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.5;
+}
+.carouselboxer1 img {
+    margin-right: 10px;
+}
+.carouselboxer1 p {
+    font-size: 12.467px;
+    font-family: "Roboto";
+    color: rgb(179, 179, 179);
+    line-height: 1.925;
+    -moz-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -webkit-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -ms-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+}
+.carouselboxer2 {
+    float: left;
+    width: 165px;
+    height: 230px;
+    margin-left: 20px;
+}
+.carouselboxer2 h3 {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.5;
+}
+.carouselboxer2 img {
+    margin-right: 10px;
+}
+.carouselboxer2 p {
+    font-size: 12.467px;
+    font-family: "Roboto";
+    color: rgb(179, 179, 179);
+    line-height: 1.925;
+    -moz-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -webkit-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -ms-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+}
+.carouselboxer3 {
+    float: left;
+    width: 165px;
+    height: 230px;
+    margin-left: 20px;
+}
+.carouselboxer3 h3 {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.5;
+}
+.carouselboxer3 p {
+    font-size: 12.467px;
+    font-family: "Roboto";
+    color: rgb(179, 179, 179);
+    line-height: 1.925;
+    -moz-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -webkit-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+    -ms-transform: matrix( 0.86928104575163,0,0,0.88235294117647,0,0);
+}
+.carouselboxer3 img {
+    margin-right: 10px;
+}
+.column1 .entertainment {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 10px;
+}
+.column1 .entertainmentlogo {
+    float: left;
+    width: 100%;
+}
+.column1 .entertainmentlogo h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.column1 .entertainmentlogo img{
+    width: 80%;
+}
+.column1 .entertainmentlogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.column1 .entertainment .enterbox {
+    float: left;
+    width: 260px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(enterbg.png);
+    font-size: 18px;
+    position: relative;
+}
+.column1 .entertainment .enterbox p {
+    float: left;
+    margin: 5px 10px;
+    margin-top: 240px;
+    color: white;
+}
+.column1 .entertainment .enterbox11 {
+    float: left;
+    font-size: 12px;
+    margin: 2px 10px;
+    color: white;
+}
+.enterboxpost {
+    float: right;
+    margin-right: 10px;
+}
+.enterawesome {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: url(11.png);
+    top: 0px;
+    right: 0px;
+}
+.entertainment .enterboxright .enterboxright1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+
+}
+.entertainment .enterboxright .enterboxright1 .enterbg {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+}
+.entertainment .enterboxright .enterboxright1 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.entertainment .enterboxright .enterboxright1 .userser {
+    margin-right: 10px; 
+}
+.entertainment .enterboxright .enterboxright2 {
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+
+}
+.entertainment .enterboxright .enterboxright2 .enterbg1 {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+}
+.entertainment .enterboxright .enterboxright2 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.entertainment .enterboxright .enterboxright2 .userser1 {
+    margin-right: 10px; 
+}
+.entertainment .enterboxright .enterboxright3 {
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+
+}
+.entertainment .enterboxright .enterboxright3 .enterbg1 {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+}
+.entertainment .enterboxright .enterboxright3 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.entertainment .enterboxright .enterboxright3 .userser1 {
+    margin-right: 10px; 
+}
+.column1 .adsspacecolumn {
+    float: left;
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 40px;
+
+}
+.column2 {
+    float: left;
+    min-height: 1895px;
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    width: 280px;
+    margin: 0px 20px;
+}
+.column2 .popular {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 10px;
+}
+.column2 .popularlogo {
+    float: left;
+    width: 100%;
+}
+.column2 .popularlogo h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.column2 .popularlogo img{
+    float: right;
+    width: 60%;
+}
+.column2 .popularlogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.popular .popularboxright .popularboxright1 {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+    margin-top: 20px;
+
+}
+.popular .popularboxright .popularboxright1 .popularbg {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.popular .popularboxright .popularboxright1 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.popular .popularboxright .popularboxright1 .userpop {
+    margin-right: 10px; 
+}
+.popular .popularboxright .popularboxright2 {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+    margin-top: 10px;
+
+}
+.popular .popularboxright .popularboxright2 .popularbg1 {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.popular .popularboxright .popularboxright2 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.popular .popularboxright .popularboxright2 .userpop1 {
+    margin-right: 10px; 
+}
+.popular .popularboxright .popularboxright3 {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+.popular .popularboxright .popularboxright3 .popularbg1 {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.popular .popularboxright .popularboxright3 p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 45, 45);
+    line-height: 1.428;
+    text-align: left;
+    -moz-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    -ms-transform: matrix( 1,0,0,0.99988297249854,0,0);
+    margin: 0px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.popular .popularboxright .popularboxright3 .userpop1 {
+    margin-right: 10px; 
+}
+.column2 .poll {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 10px;
+}
+.column2 .polllogo {
+    float: left;
+    width: 100%;
+}
+.column2 .polllogo h3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.column2 .polllogo img{
+    float: right;
+    width: 80%;
+    margin-right: 10px;
+}
+.column2 .polllogo hr{
+    height: 2px;
+    background: black;
+    border: 0px;
+}
+.column2 .pollul {
+    float: left;
+    width: 100%;
+}
+.column2 .pollul legend{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.column2 .pollul .votesite{
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.column2 .pollul .pollbutton{
+    float: left;
+    width: 100%;
+}
+.column2 .pollul .votebut{
+    float: left;
+    width: 68px;
+    height: 32px;
+    background-color: rgb(45, 45, 45);
+    margin-left: 20px;
+}
+.column2 .pollul .votebut:hover{
+    background-color: rgb(85, 178, 243);
+}
+.column2 .pollul .votebut p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 7px;
+    color: rgb(255, 255, 255);
+}
+.column2 .pollul .votebut a{
+    text-decoration: none;
+}
+.column2 .pollul .viewbut{
+    float: left;
+    width: 125px;
+    height: 32px;
+    background-color: rgb(45, 45, 45);
+    margin-left: 10px;
+}
+.column2 .pollul .viewbut:hover{
+    background-color: rgb(85, 178, 243);
+}
+.column2 .pollul .viewbut p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 7px;
+    color: rgb(255, 255, 255);
+}
+.column2 .pollul .viewbut a{
+    text-decoration: none;
+}
+.column2 .poll .pollul .votesite input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 10px;
+}
+.column2 .poll .pollul .votesite label:hover{
+    color: rgb(85, 178, 243);
+}
+.column2 .poll .pollul .votesite input:checked{
+    background-color: rgb(85, 178, 243);
+    border: 0px;
+}
+
+
+  
